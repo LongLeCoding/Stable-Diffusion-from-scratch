@@ -1,0 +1,47 @@
+# ========= Python ==========
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# ========= Virtual Environment ==========
+.env/
+.venv/
+ENV/
+env.bak/
+venv/
+pip-log.txt
+
+# ========= Jupyter Notebook ==========
+.ipynb_checkpoints/
+
+# ========= Model files ==========
+*.pt
+*.pth
+*.h5
+*.ckpt
+
+# ========= Dataset & generated images ==========
+data/
+datasets/
+images/
+outputs/
+*.csv
+*.tsv
+*.json
+*.zip
+*.tar
+*.tar.gz
+
+# ========= Logs ==========
+*.log
+*.out
+
+# ========= System & IDE files ==========
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
